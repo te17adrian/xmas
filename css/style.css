@@ -1,6 +1,7 @@
 html{
     scroll-behavior: smooth;
     background-color: #bc0d0d;
+    
 }
 body {
     margin: 0;
@@ -16,11 +17,28 @@ section {
     width: 90%;
     margin: 0 auto;
 }
+section > h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2em;
+    color: #dde3e9;
+}
+section > h3 > img {
+    width: 29px;
+    margin-right: 10px;
+}
 section > h2 {
     font-family: 'Merriweather Sans', sans-serif;
 }
 section > p {
     font-family: 'Merriweather', serif;
+}
+section > p1 {
+    margin-left: 50px;
+    font-family: 'Merriweather', serif;
+    color: #dde3e9;
+}
+section > img {
+    float: right;
 }
 nav {
     position: fixed;
@@ -31,19 +49,28 @@ nav {
 }
 h2 {
     font-size: 4em;
-    color: white;
+    color: #dde3e9;
+}
+h2 > img {
+    margin-right: 20px;
+    width: 50px;
 }
 p {
-    color: white;
+    color: #dde3e9;
 }
-ul {
+section > ul {
+    color: #dde3e9;
+    font-family: 'Merriweather', serif;
+}
+nav > ul {
+    font-family: 'Merriweather Sans', sans-serif;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #063607;
 }
-ul > a > img {
+nav > ul > a > img {
     margin-left: 19px;
     float: left;
     height: auto;
@@ -56,12 +83,12 @@ ul > img:hover {
 li {
     float: left;
 }
-li:hover {
+nav > ul > li:hover {
     color: aliceblue;
 }
 li a {
     display: block;
-    color: white;
+    color: #dde3e9;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
